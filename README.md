@@ -14,7 +14,7 @@ Bhrigu Bindu is a sensitive karmic point in Vedic astrology, calculated as the e
 
 ## 🚀 Live Demo
 
-👉 [Click here to try it now!](https://yourusername.github.io/bhrigu-bindu-calculator/)
+👉 [Click here to try it now!](https://sumitkumar91.github.io/bhrigu-bindu-calculator/)
 
 ---
 
