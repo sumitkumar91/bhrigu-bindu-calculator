@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXG42NLBX1"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXG42NLBX1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-HXG42NLBX1');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <!-- SEO Meta Tags -->
+    <title>Bhrigu Bindu Calculator | Find Your Karmic Destiny Point</title>
+    <meta name="description" content="Calculate your Bhrigu Bindu — the most sensitive karmic point in your horoscope — using Vedic astrology principles. Simple, fast, and accurate.">
+    <meta name="keywords" content="Bhrigu Bindu, astrology calculator, vedic astrology, karmic point, birth chart, nakshatra, moon, rahu, online astrology, destiny point">
+    <meta name="author" content="Your Name">
+      
+    <!-- Open Graph-->
+    <meta property="og:title" content="Bhrigu Bindu Calculator">
+    <meta property="og:description" content="Discover your Bhrigu Bindu and understand its spiritual and karmic meaning.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sumitkumar91.github.io/bhrigu-bindu-calculator/">
+        
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Bhrigu Bindu Calculator</h1>
+        <p class="subtitle">Vedic Astrology Calculator</p>
+        
+        <form id="bhriguForm">
+            <div class="form-group">
+                <label for="rahuSign">Rahu's Zodiac Sign:</label>
+                <select id="rahuSign" required>
+                    <option value="">Select Rahu's Sign</option>
+                    <option value="0">Aries (Mesha)</option>
+                    <option value="1">Taurus (Vrishabha)</option>
+                    <option value="2">Gemini (Mithuna)</option>
+                    <option value="3">Cancer (Karka)</option>
+                    <option value="4">Leo (Simha)</option>
+                    <option value="5">Virgo (Kanya)</option>
+                    <option value="6">Libra (Tula)</option>
+                    <option value="7">Scorpio (Vrishchika)</option>
+                    <option value="8">Sagittarius (Dhanu)</option>
+                    <option value="9">Capricorn (Makara)</option>
+                    <option value="10">Aquarius (Kumbha)</option>
+                    <option value="11">Pisces (Meena)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="rahuDegree">Rahu's Degree:</label>
+                <div class="input-group">
+                    <div class="degree-input">
+                        <input type="number" id="rahuDegree" min="0" max="29" step="0.01" placeholder="0-29" required>
+                    </div>
+                    <div>
+                        <span style="color: #718096; font-size: 14px;">Enter degree (0-29.99)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="moonSign">Moon's Zodiac Sign:</label>
+                <select id="moonSign" required>
+                    <option value="">Select Moon's Sign</option>
+                    <option value="0">Aries (Mesha)</option>
+                    <option value="1">Taurus (Vrishabha)</option>
+                    <option value="2">Gemini (Mithuna)</option>
+                    <option value="3">Cancer (Karka)</option>
+                    <option value="4">Leo (Simha)</option>
+                    <option value="5">Virgo (Kanya)</option>
+                    <option value="6">Libra (Tula)</option>
+                    <option value="7">Scorpio (Vrishchika)</option>
+                    <option value="8">Sagittarius (Dhanu)</option>
+                    <option value="9">Capricorn (Makara)</option>
+                    <option value="10">Aquarius (Kumbha)</option>
+                    <option value="11">Pisces (Meena)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="moonDegree">Moon's Degree:</label>
+                <div class="input-group">
+                    <div class="degree-input">
+                        <input type="number" id="moonDegree" min="0" max="29" step="0.01" placeholder="0-29" required>
+                    </div>
+                    <div>
+                        <span style="color: #718096; font-size: 14px;">Enter degree (0-29.99)</span>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit">Calculate Bhrigu Bindu ✨</button>
+        </form>
+
+        <div id="result" class="result">
+            <h3>Your Bhrigu Bindu</h3>
+            <p id="resultText"></p>
+        </div>
+
+        <div class="info-box">
+            <h4>About Bhrigu Bindu Calculator</h4>
+            <p>Based on ancient astrological principles, this tool calculates the Bhrigu Bindu—the powerful midpoint between your Moon and Rahu positions—believed to be a karmic hotspot influencing your soul’s journey, deep desires, and fated connections.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
